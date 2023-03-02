@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+nav {
+  background: linear-gradient(88.27deg, #135602 0%, #3beb4d 100%);
+  width: 100vw;
+  height: 20px;
+}
+
+
+
+.text-one {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 3px;
+  justify-content: center;
+
+  padding-top: 40px;
+
+  gap: 716px;
+
+  font-family: Lexend Deca;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #ffffff;
+}
+div.text-one img.ufra-png{
+  max-width: 20%;
+}
+/* quando quiser pegar a classe de uma tag use o ponto junto ul.cards*/
+
+.cards {
+  padding-top: 100px;
+  width: 900px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.cards .nonepadding {
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/*.cards.header {
+  list-style: none;
+}
+  */
+
+li {
+  list-style: none;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 274px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  padding-left: 29px;
+  padding-top: 25px;
+  padding-right: 29px;
+  color: #717171;
+  font-family: Lexend Deca;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.cards h1 {
+  margin-bottom: 8px;
+  font-family: Lexend Deca;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+
+.cards h2 {
+  padding-left: 29px;
+  padding-right: 29px;
+  padding-bottom: 25px;
+  font-family: Lexend Deca;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: justify;
+  color: #717171;
+}
+
+main {
+  background: #bebec035;
+  height: 1800px;
+}
+
+
+/* mobile */
+@media (max-width: 900px) {
+  nav {
+    height: 200px;
+  }
+
+  
+
+  .cards {
+    padding-top: 50px;
+    width: 374px;
+    height: 235px;
+  }
+
+  .text-one {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  .header {
+    font-size: 14px;
+  }
+
+  .cards h1 {
+    font-size: 18px;
+  }
+
+  .cards h2 {
+    font-size: 14px;
+  }
+
+  li {
+    margin-bottom: 25px;
+  }
+}
